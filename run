@@ -1,0 +1,12 @@
+#! /bin/bash
+
+set -e
+
+#
+# run
+#
+
+exec env/bin/bun run backend/server.ts
+
+#
+#
