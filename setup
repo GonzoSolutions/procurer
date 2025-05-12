@@ -1,0 +1,13 @@
+#! /bin/bash
+
+set -e
+
+#
+# setup
+#
+
+mkdir -p "env/bin"
+curl -fsSL https://bun.sh/install | BUN_INSTALL="$(pwd)/env" bash
+
+#
+#
