@@ -1,1 +1,7 @@
 env/
+
+*.swp
+
+*.db
+*.sql
+*.sqlite
